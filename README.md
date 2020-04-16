@@ -9,12 +9,7 @@ Will become useless as soon as the folks @M5Stack will update their framework fo
 - Clone this repo
 
     ```bash
-    git clone https://github.com/DonBrus/M5Stack-IDF-4.0.git M5IDF4 && \
-    cd components/arduino && \
-    git submodule update --init --recursive && \
-    cd .. && \
-    cd M5Stack && \
-    git submodule update --init --recursive && \
+    git clone --recursive https://github.com/DonBrus/M5Stack-IDF-4.0.git
 
 - Everything should be already working as ```idf.py menuconfig``` goes
 - Try compiling and flashing with ```idf.py build flash -p <COMPORT>```
