@@ -1,3 +1,4 @@
+### ⚠️ Note: this repo isn't actively maintained. Head over to https://github.com/m5stack/M5Unified to get official support for esp-idf
 # M5Stack Arduino core for ESP-IDF 4.0
 
 This repo contains an "hello world" project acting as a temporary workaround for using the M5Stack in an Arduino fashion, on ESP-IDF v4.0 (possibly up, but untested).
